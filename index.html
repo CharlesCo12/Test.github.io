@@ -4,12 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carlos — Mathematics</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] } };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
-  <h1>Hello, world.</h1>
-  <p>This is a paragraph.</p>
-  <p>Is this the starting point of a beautiful and interesting story? I am eager to build a website that showcases my mathematical journey!</p>
+  <header>
+    <h1>Carlos</h1>
+    <p>PhD Candidate in Mathematics, McMaster University</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        My research spans valued differential fields with analytic
+        structure, pseudofinite groups, and o-minimal extensions of
+        real fields.
+      </p>
+    </section>
+
+    <section id="sample-math">
+      <h2>A statement I like</h2>
+      <p>
+        The real field \( (\mathbb{R}, <, +, \cdot) \) is o-minimal:
+      </p>
+      <p>
+        \[
+          \text{every definable subset of } \mathbb{R} \text{ is a finite}
+          \text{ union of points and open intervals.}
+        \]
+      </p>
+    </section>
+
+    <section id="links">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://arxiv.org">arXiv</a></li>
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Carlos.</p>
+  </footer>
 
 </body>
 </html>
