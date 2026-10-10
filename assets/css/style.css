@@ -16,7 +16,7 @@ body {
   background: var(--column-bg); /* the column itself */
   color: var(--text);
   font-family: Georgia, serif;
-  max-width: 1000px;
+  max-width: var(--max-width);
   margin: 40px auto;
   padding: 24px 20px;           /* top/bottom padding so the column color shows */
   line-height: 1.6;
