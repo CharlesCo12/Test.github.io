@@ -1,16 +1,33 @@
 ---
 title: Home
 layout: default
+
+profile:
+  align: right
+  image: sample.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Hamilton Hall, 303.</p>
+    <p>Department of Mathematics & Statistics</p>
+    <p>McMaster University</p>
+    <p>Hamilton, ON<p>
+    <p>L82 4L8, Canada<p>
 ---
 
-## Welcome
+## Welcome around!
+# Carlos Cordoba-Caycedo, Ph.D. candidate, McMaster University
 
-I'm a PhD candidate in mathematics working in model theory. This page is a
-minimal example of a Jekyll site: you are reading Markdown that Jekyll
-wrapped in a shared layout.
+**Greetings earthlings!**
+Thanks for coming over to my website! My name is Carlos, and if you are currently asking yourself __"Who is this person?"__, let me tell you that it is usually an interesting question to ask, but I believe the best answer is that I am still figuring it out. In the meantime, I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).
 
-See my [research]({{ '/research/' | relative_url }}) page for more.
+## Research summary
 
-## Inline math works
+Besides finding interesting the construction of Websites with my silly jokes, my main research area is model theory with an special interest in extension of algebraically closed valued fields ($$\text{ACVF}$$), pseudofinite structures (Abelian groups, Metric spaces), and O-minimality. See my [research]({{ '/research/' | relative_url }}) page for more information.
 
-For example, $$\sin^2\theta + \cos^2\theta = 1$$ is typeset inline.
+## Activities summary
+
+I serve as the __co-organizer__ of the Joint Waterloo-McMaster Joint Logic seminar, and __co-organizer__ of the Casual Math Seminar at McMaster University (In case you are interest in participating, please check our [website](https://sites.google.com/view/casual-math-seminar/home)). Moreover, I serve as the __Treasurer__ of the Latin American Graduate Student Association at McMaster University.
+
+## Teaching summary
+
+I am currently the instructor of **Calculos for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.

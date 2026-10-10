@@ -1,14 +1,21 @@
 # Site-wide settings. Jekyll reads this file once at startup,
 # so restart `jekyll serve` after editing it.
 
-title: Carlos — Mathematics
-description: A minimal example of a Jekyll math website.
+title: Carlos Cordoba-Caycedo, Mathematics.
+description: A personal website for Carlos Cordoba-Caycedo, a model mathematician.
+
+# Dimensions
+max_width: 930px
 
 # IMPORTANT for links:
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
 #  - If your repo is named  anything-else (e.g. math-site)
 #        ->  set baseurl to "/anything-else"   (leading slash, no trailing slash)
 baseurl: "/Test.github.io"
+
+footer_text: >
+  Last Updated: {{ site.time | date: "%Y-%m-%d" }}.
+  This website is built with Jekyll and hosted on GitHub Pages. The source code is available on GitHub.
 
 # Markdown engine options (kramdown is Jekyll's default).
 # In Markdown, write math as $$ ... $$ (inline when inside a sentence,
