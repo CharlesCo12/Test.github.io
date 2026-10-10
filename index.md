@@ -15,11 +15,10 @@ profile:
 ---
 
 # Welcome around!
-## Carlos Cordoba-Caycedo, Ph.D. candidate.
-## McMaster University
+## Carlos Cordoba-Caycedo, Ph.D. candidate. McMaster University.
 
 **Greetings earthlings!**\
-
+\
 Thanks for coming over to my website! My name is Carlos, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).\
 
 This website contains a summary of my work as a mathematician including research, teaching and other activities. See my CV page for a detailed summary.
@@ -38,4 +37,4 @@ I serve as the __co-organizer__ of the Joint Waterloo-McMaster Joint Logic semin
 I am currently the instructor of **Calculus for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.
 
 ## Contact me!
-I am eager to speak a little bit about math! Just send me an email <a> href="mailto:cordobac@mcmaster.ca">here!</a>
+I am eager to speak a little bit about math! Just send me an email <a href="mailto:cordobac@mcmaster.ca">here!</a>
