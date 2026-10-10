@@ -18,7 +18,7 @@ profile:
 
 **Greetings earthlings!**<br>
 
-Thanks for coming over to my website! My name is Carlos Cordoba-Caycedo, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).<br>
+Thanks for coming over to my website! My name is **Carlos Cordoba-Caycedo**, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).<br>
 
 Previously, I was an undergraduate student at [Universidad de Los Andes](https://www.uniandes.edu.co/) where I received my __B.Sc. in Physics__ under the supervision of [Dr. Jaime Forero-Romero](https://academia.uniandes.edu.co/AcademyCv/je.forero), and my __B.Sc. in Mathematics__ under the supervision of [Dr. Dario Garcia](https://sites.google.com/view/dagarcia/home?authuser=0) and [Dr. John Goodrick](https://sites.google.com/view/john-goodrick/home).<br>
 
