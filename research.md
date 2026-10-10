@@ -4,22 +4,20 @@ layout: default
 permalink: /research/
 ---
 
-# Carlos
-
-PhD candidate in mathematics at McMaster University, working in model
-theory, differential algebra, and o-minimality.
-
 ## Research interests
 
-- Valued differential fields with analytic structure
-- Pseudofinite groups
-- O-minimal extensions of real fields
+- Valued fields
+- Differential fields
+- Pseudofinite structures
 
-## A little computation that is relevant
+## A displayed statement
 
-Some students usually ask me how important is a limit computation for them,
-so let's do one!
+The real field $$(\mathbb{R}, <, +, \cdot)$$ is o-minimal: every definable
+subset $$X \subseteq \mathbb{R}$$ is a finite union of points and open
+intervals. In symbols,
 
-\[
-  \text{Let }\varepsilon>0, \text{ there is a }\delta>0.
-\]
+$$
+X = \bigcup_{i=1}^{n} I_i, \qquad I_i \text{ a point or an open interval.}
+$$
+
+Back to the [home page]({{ '/' | relative_url }}).

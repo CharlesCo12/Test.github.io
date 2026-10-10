@@ -1,3 +1,22 @@
+# Site-wide settings. Jekyll reads this file once at startup,
+# so restart `jekyll serve` after editing it.
+
 title: Carlos — Mathematics
-description: PhD candidate, model theory and differential algebra
+description: A minimal example of a Jekyll math website.
+
+# IMPORTANT for links:
+#  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
+#  - If your repo is named  anything-else (e.g. math-site)
+#        ->  set baseurl to "/anything-else"   (leading slash, no trailing slash)
 baseurl: ""
+
+# Markdown engine options (kramdown is Jekyll's default).
+# In Markdown, write math as $$ ... $$ (inline when inside a sentence,
+# displayed when alone on its own lines). kramdown converts it to
+# \( ... \) / \[ ... \], which MathJax (see _layouts/default.html) typesets.
+kramdown:
+  math_engine: mathjax
+
+# Files Jekyll should not publish
+exclude:
+  - README.md

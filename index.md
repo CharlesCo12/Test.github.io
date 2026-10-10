@@ -1,16 +1,16 @@
 ---
 title: Home
 layout: default
-permalink: /Home/
 ---
 
-# Carlos
+## Welcome
 
-PhD candidate in mathematics at McMaster University, working in model
-theory, differential algebra, and o-minimality.
+I'm a PhD candidate in mathematics working in model theory. This page is a
+minimal example of a Jekyll site: you are reading Markdown that Jekyll
+wrapped in a shared layout.
 
-## Research interests
+See my [research]({{ '/research/' | relative_url }}) page for more.
 
-- Valued differential fields with analytic structure
-- Pseudofinite groups
-- O-minimal extensions of real fields
+## Inline math works
+
+For example, $$\sin^2\theta + \cos^2\theta = 1$$ is typeset inline.

@@ -3,21 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>{{ page.title }} · {{ site.title }}</title>
+
+  <!-- relative_url prepends site.baseurl, so links work for both
+       username.github.io and username.github.io/repo-name -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- MathJax: typesets \( ... \) (inline) and \[ ... \] (display).
+       kramdown produces these from $$ ... $$ in the Markdown files. -->
   <script>
-    MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] } };
+    MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-  </nav>
+
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+    </nav>
+  </header>
+
   <main>
     {{ content }}
   </main>
-  <footer><p>&copy; 2026 Carlos.</p></footer>
+
+  <footer>
+    <p>&copy; 2026 Carlos</p>
+  </footer>
+
 </body>
 </html>
