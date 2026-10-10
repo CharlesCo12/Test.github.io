@@ -54,5 +54,5 @@ During Fall 2026, I am actively attending the following seminars and colloquia:
 I am currently the instructor of **Calculus for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.
 
 ## Contact me!
-I am eager to speak a little bit about math or any other thing! Just send me an email <a href="mailto:cordobac@mcmaster.ca">here!</a><br>
+I am eager to speak a little bit about math or any other thing, just send me an email <a href="mailto:cordobac@mcmaster.ca">here!</a><br>
 If you have any other things to talk about, make sure to check my [contact]({{ '/contact/' | relative_url }}) page.
