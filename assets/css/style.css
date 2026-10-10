@@ -10,6 +10,7 @@
 
 html {
   background: var(--page-bg);   /* the outer page, behind the column */
+  font-size: 18px; /* base font size for rem units */
 }
 
 body {
@@ -31,10 +32,13 @@ header {
 
 header h1 { margin: 0 0 8px; font-size: 1.6rem; }
 
+h2 { margin-top: 1.6rem; font-size: 1.35rem; }
+
 nav a {
   margin-right: 18px;
   text-decoration: none;
   color: var(--link);
+  font-size: 1.05rem;
 }
 nav a:hover { text-decoration: underline; color: var(--link-hover); }
 
@@ -51,7 +55,7 @@ footer {
 
 .profile {
   float: right;
-  width: 260px;
+  width: 320px;
   margin: 0 0 16px 28px;       /* gap between photo and text */
   text-align: center;
   font-size: 0.9rem;

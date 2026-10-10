@@ -19,12 +19,10 @@ profile:
 ## McMaster University
 
 **Greetings earthlings!**\
-Thanks for coming over to my website! My name is Carlos, and if you are currently asking yourself __"Who is this person?"__, let me tell you that it is usually an interesting question to ask, but I believe the best answer is that I am still figuring it out.\
-In the meantime, I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).
 
-## Contact me!
-I am eager to speak a little bit about math! Just send me an email <a href="mailto:cordobac@mcmaster.ca">here!</a>
+Thanks for coming over to my website! My name is Carlos, and I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).\
 
+This website contains a summary of my work as a mathematician including research, teaching and other activities. See my CV page for a detailed summary.
 ## Research summary
 
 Besides finding interesting the construction of Websites with my silly jokes, my main research area is model theory with an special interest in extension of algebraically closed valued fields ($$\text{ACVF}$$), pseudofinite structures (Abelian groups, Metric spaces), and O-minimality.\
@@ -38,3 +36,6 @@ I serve as the __co-organizer__ of the Joint Waterloo-McMaster Joint Logic semin
 ## Teaching summary
 
 I am currently the instructor of **Calculus for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.
+
+## Contact me!
+I am eager to speak a little bit about math! Just send me an email <a> href="mailto:cordobac@mcmaster.ca">here!</a>
