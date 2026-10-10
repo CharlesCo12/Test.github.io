@@ -5,7 +5,7 @@ title: Carlos Cordoba-Caycedo, Mathematics.
 description: A personal website for Carlos Cordoba-Caycedo, a model mathematician.
 
 # Dimensions
-max_width: 1100px
+max_width: 920px
 
 # IMPORTANT for links:
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
