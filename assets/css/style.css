@@ -57,7 +57,7 @@ footer {
   float: right;
   width: 600px;
   margin: 0 0 16px 28px;       /* gap between photo and text */
-  text-align: center;
+  text-align: right;
   font-size: 0.9rem;
   line-height: 1.4;
 }
