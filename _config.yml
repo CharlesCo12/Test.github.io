@@ -8,7 +8,7 @@ description: A minimal example of a Jekyll math website.
 #  - If your repo is named  <username>.github.io   ->  keep baseurl EMPTY ("")
 #  - If your repo is named  anything-else (e.g. math-site)
 #        ->  set baseurl to "/anything-else"   (leading slash, no trailing slash)
-baseurl: ""
+baseurl: "/Test.github.io"
 
 # Markdown engine options (kramdown is Jekyll's default).
 # In Markdown, write math as $$ ... $$ (inline when inside a sentence,
