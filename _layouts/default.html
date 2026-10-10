@@ -33,6 +33,19 @@
   </header>
 
   <main>
+    {% if page.profile %}
+    <aside class="profile {{ page.profile.align | default: 'right' }}">
+      {% if page.profile.image %}
+      <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"
+           alt="Profile picture"
+           class="{% if page.profile.image_circular %}circular{% endif %}">
+      {% endif %}
+      {% if page.profile.more_info %}
+      <div class="more-info">{{ page.profile.more_info }}</div>
+      {% endif %}
+    </aside>
+    {% endif %}
+
     {{ content }}
   </main>
 

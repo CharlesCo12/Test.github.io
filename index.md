@@ -2,23 +2,22 @@
 title: Home
 layout: default
 
-profile:
-  align: right
-  image: sample.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Hamilton Hall, 303.</p>
-    <p>Department of Mathematics & Statistics</p>
+more_info: >
+    <p>Hamilton Hall, 303</p>
+    <p>Department of Mathematics &amp; Statistics</p>
     <p>McMaster University</p>
-    <p>Hamilton, ON<p>
-    <p>L82 4L8, Canada<p>
+    <p>Hamilton, ON</p>
+    <p>L8S 4L8, Canada</p>
 ---
 
-## Welcome around!
-# Carlos Cordoba-Caycedo, Ph.D. candidate, McMaster University
+# Welcome around!
+## Carlos Cordoba-Caycedo, Ph.D. candidate, McMaster University
 
 **Greetings earthlings!**
 Thanks for coming over to my website! My name is Carlos, and if you are currently asking yourself __"Who is this person?"__, let me tell you that it is usually an interesting question to ask, but I believe the best answer is that I am still figuring it out. In the meantime, I'm a **PhD candidate in mathematics** at [McMaster University](https://math.mcmaster.ca/) working under the supervision of [Dr. Deirdre Haskell](https://experts.mcmaster.ca/people/haskell).
+
+## Contact me!
+I am eager to speak a little bit about math! Just send me an email <a href="mailto:cordobac@mcmaster.ca">here!</a>
 
 ## Research summary
 
@@ -30,4 +29,4 @@ I serve as the __co-organizer__ of the Joint Waterloo-McMaster Joint Logic semin
 
 ## Teaching summary
 
-I am currently the instructor of **Calculos for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.
+I am currently the instructor of **Calculus for Math and Stats I (Math 1X03 C02)** during Fall 2026. See my [teaching]({{ '/teaching/' | relative_url }}) page for a description of previous courses and access to previous lecture notes.

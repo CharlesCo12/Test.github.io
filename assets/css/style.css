@@ -1,14 +1,30 @@
+:root {
+  --page-bg:   #c9d6b0;   /* outer page: warm sage */
+  --column-bg: #f4f6e8;   /* the column: soft cream-green */
+  --text:      #2b2f24;   /* near-black with a green-brown tint */
+  --link:      #2f6b3a;   /* forest green */
+  --link-hover:#1d4a27;   /* darker green on hover */
+  --rule:      #c3cdb0;   /* header/footer lines */
+  --muted:     #5f6652;   /* footer text */
+}
+
+html {
+  background: var(--page-bg);   /* the outer page, behind the column */
+}
+
 body {
+  background: var(--column-bg); /* the column itself */
+  color: var(--text);
   font-family: Georgia, serif;
-  max-width: 930px;
+  max-width: 1000px;
   margin: 40px auto;
-  padding: 0 20px;
-  color: #222;
+  padding: 24px 20px;           /* top/bottom padding so the column color shows */
   line-height: 1.6;
+  border-radius: 8px;           /* optional: softly rounded corners */
 }
 
 header {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--rule);
   padding-bottom: 12px;
   margin-bottom: 28px;
 }
@@ -18,16 +34,37 @@ header h1 { margin: 0 0 8px; font-size: 1.6rem; }
 nav a {
   margin-right: 18px;
   text-decoration: none;
-  color: #1a4d8f;
+  color: var(--link);
 }
-nav a:hover { text-decoration: underline; }
+nav a:hover { text-decoration: underline; color: var(--link-hover); }
 
-a { color: #1a4d8f; }
+a { color: var(--link); }
+a:hover { color: var(--link-hover); }
 
 footer {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--rule);
   margin-top: 40px;
   padding-top: 12px;
   font-size: 0.85rem;
-  color: #777;
+  color: var(--muted);
+}
+
+.profile {
+  float: right;
+  width: 260px;
+  margin: 0 0 16px 28px;       /* gap between photo and text */
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.profile.left { float: left; margin: 0 28px 16px 0; }
+
+.profile img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.profile img.circular { border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; }
+.profile .more-info p { margin: 2px 0; }
+
+main::after { content: ""; display: block; clear: both; }  /* footer stays below the photo */
+
+@media (max-width: 600px) {     /* phones: photo on top, centered */
+  .profile, .profile.left { float: none; width: 70%; margin: 0 auto 20px; }
 }
